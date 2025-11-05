@@ -67,7 +67,7 @@ export default function Banner() {
           </Swiper>
         </div>
 
-        {/* ===== Impact Section ===== */}
+
         <div className="grid md:grid-cols-2 gap-8 bg-white p-6 rounded-2xl shadow-md mb-10">
           <img
             src="/bannerImages/child.jpg"
@@ -92,7 +92,7 @@ export default function Banner() {
           </div>
         </div>
 
-        {/* ===== Volunteer Section ===== */}
+
         <div className="grid md:grid-cols-2 gap-8 bg-white p-6 rounded-2xl shadow-md">
           <img
             src="/bannerImages/volunteer3.jpg"
