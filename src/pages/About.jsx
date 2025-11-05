@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 font-[Poppins]">
       <main className="flex-grow">
-        {/* === Hero Section === */}
+
         <section className="relative bg-gradient-to-r from-green-600 to-blue-600 text-white text-center py-16">
           <div className="max-w-6xl mx-auto px-4">
             <h1 className="text-4xl font-pacifico mb-4">
@@ -20,7 +20,7 @@ export default function About() {
           </div>
         </section>
 
-        {/* === Mission & Vision === */}
+
         <section className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <img
@@ -51,7 +51,7 @@ export default function About() {
           </div>
         </section>
 
-        {/* === Our Story Section === */}
+    
         <section className="bg-white py-16">
           <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
             <div className="order-2 md:order-1">
