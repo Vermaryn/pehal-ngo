@@ -7,7 +7,7 @@ export default function Footer() {
       {/* Top Gradient Line */}
       <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-green-500 via-blue-500 to-green-500"></div>
 
-      {/* Main Content */}
+
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start gap-10">
         {/* === Left Side: NGO Info === */}
         <div className="md:w-1/2">
@@ -22,7 +22,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* === Right Side: Contact & Social === */}
+
         <div className="md:w-1/2 md:text-right">
           <h2 className="text-xl font-semibold text-white mb-3">Contact Us</h2>
           <p className="text-sm text-gray-400 mb-3">
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* === Bottom Bar === */}
+
       <div className="mt-10 border-t border-gray-700">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between pt-4 text-sm text-gray-500">
           <p>
