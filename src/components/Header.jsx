@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <header className="w-full shadow-lg font-[Poppins] relative bg-white">
-      {/* 🔹 Topbar */}
+
       <div className="text-gray-700 text-sm py-2 z-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto flex flex-col nav:flex-row nav:justify-end items-center gap-2 nav:gap-6 px-4 font-montserrat text-lg">
           <a
@@ -28,9 +28,8 @@ export default function Header() {
         </div>
       </div>
 
-      {/* 🔹 Navbar */}
       <nav className="flex items-center justify-between px-10 py-3 font-pacifico text-xl relative flex-wrap">
-        {/* Left: Logo */}
+
         <Link to="/" className="flex items-center gap-2">
           <img src="/images/icon.png" alt="Logo" className="h-12 w-auto" />
           <div className="flex flex-col leading-tight">
@@ -39,7 +38,7 @@ export default function Header() {
           </div>
         </Link>
 
-        {/* Center: Menu links */}
+
         <ul className="hidden nav:flex space-x-6 mx-auto font-pacifico">
           <li>
             <NavLink
@@ -111,7 +110,7 @@ export default function Header() {
           Donate
         </Link>
 
-        {/* Mobile Hamburger */}
+
         <button
           className="nav:hidden text-2xl relative"
           onClick={() => setOpen(!open)}
@@ -119,7 +118,7 @@ export default function Header() {
           {open ? <FaXmark /> : <FaBars />}
         </button>
 
-        {/* 🔹 Mobile Dropdown */}
+
         <div
           className={`absolute top-full left-0 w-full z-50 bg-white shadow-md flex flex-col items-center py-4 nav:hidden space-y-3 transition-all duration-500 ease-in-out ${
             open
