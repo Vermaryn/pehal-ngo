@@ -8,7 +8,7 @@ export default function MainLayout() {
     <div className="flex flex-col min-h-screen bg-gray-50">
       <Header />
       <main className="flex-grow">
-        <Outlet /> {/* yahan har page ka content render hoga */}
+        <Outlet /> 
       </main>
       <Footer />
     </div>
