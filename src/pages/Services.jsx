@@ -1,38 +1,41 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { img } from "../utils/imagePath";
 
 export default function Services() {
-  const services = [
-    {
-      id: 1,
-      title: "Community Awareness Drives",
-      description:
-        "We organize awareness campaigns to educate communities about leprosy — its causes, early detection, and prevention. These drives help reduce stigma and encourage timely medical help.",
-      image: "/services/NGO-holds-awareness-drive.jpg",
-    },
-    {
-      id: 2,
-      title: "Medical Camps & Rehabilitation",
-      description:
-        "Our regular medical camps provide free health checkups, diagnosis, and medicine distribution. We also offer rehabilitation services to help individuals regain confidence and mobility.",
-      image: "/services/Rural health care.jpg",
-    },
-    {
-      id: 3,
-      title: "Education & Empowerment",
-      description:
-        "We support education for children from leprosy-affected families and provide skill training for adults to ensure long-term empowerment and social inclusion.",
-      image: "/services/Educate-Girls-an-NGO.jpg",
-    },
-    {
-      id: 4,
-      title: "Livelihood Support",
-      description:
-        "Through microfinance and skill development, we help families start small businesses and rebuild their lives with dignity and self-reliance.",
-      image: "/services/teamwork.JPG",
-    },
-  ];
+
+const services = [
+  {
+    id: 1,
+    title: "Community Awareness Drives",
+    description:
+      "We organize awareness campaigns to educate communities about leprosy — its causes, early detection, and prevention. These drives help reduce stigma and encourage timely medical help.",
+    image: img("services/NGO-holds-awareness-drive.jpg"),
+  },
+  {
+    id: 2,
+    title: "Medical Camps & Rehabilitation",
+    description:
+      "Our regular medical camps provide free health checkups, diagnosis, and medicine distribution. We also offer rehabilitation services to help individuals regain confidence and mobility.",
+    image: img("services/Rural health care.jpg"),
+  },
+  {
+    id: 3,
+    title: "Education & Empowerment",
+    description:
+      "We support education for children from leprosy-affected families and provide skill training for adults to ensure long-term empowerment and social inclusion.",
+    image: img("services/Educate-Girls-an-NGO.jpg"),
+  },
+  {
+    id: 4,
+    title: "Livelihood Support",
+    description:
+      "Through microfinance and skill development, we help families start small businesses and rebuild their lives with dignity and self-reliance.",
+    image: img("services/teamwork.JPG"),
+  },
+];
+
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 font-[Poppins]">

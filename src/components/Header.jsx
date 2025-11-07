@@ -7,6 +7,8 @@ import {
   FaPhone,
   FaBars,
 } from "react-icons/fa6";
+import { img } from "../utils/imagePath";
+
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -31,7 +33,7 @@ export default function Header() {
       <nav className="flex items-center justify-between px-10 py-3 font-pacifico text-xl relative flex-wrap">
 
         <Link to="/" className="flex items-center gap-2">
-          <img src="/images/icon.png" alt="Logo" className="h-12 w-auto" />
+          <img src={img("/images/icon.png")} alt="Logo" className="h-12 w-auto" />
           <div className="flex flex-col leading-tight">
             <span className="text-2xl font-pacifico text-green-700">Pehal</span>
             <span className="text-sm text-gray-600 tracking-wide">Ek Asha</span>
