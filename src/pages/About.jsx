@@ -26,7 +26,7 @@ export default function About() {
         <section className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <img
-              src={img("/about/our mission.jpg")}
+              src={img("about/our mission.jpg")}
               alt="Mission"
               className="rounded-2xl shadow-lg object-cover w-full h-[350px]"
             />
@@ -75,7 +75,7 @@ export default function About() {
             </div>
             <div className="order-1 md:order-2">
               <img
-                src={img("/about/our vision.jpg")}
+                src={img("about/our vision.jpg")}
                 alt="Our Story"
                 className="rounded-2xl shadow-lg object-cover w-full h-[350px]"
               />

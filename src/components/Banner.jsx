@@ -46,7 +46,7 @@ export default function Banner() {
 
             <SwiperSlide>
               <img
-                src={img("/bannerImages/great.jpg")}
+                src={img("bannerImages/great.jpg")}
                 alt="Healthcare support for patients"
                 className="w-full h-[420px] object-cover rounded-2xl"
               />
@@ -54,14 +54,14 @@ export default function Banner() {
 
             <SwiperSlide>
               <img
-                src={img("/bannerImages/home.jpg")}
+                src={img("bannerImages/home.jpg")}
                 alt="Community awareness programs"
                 className="w-full h-[420px] object-cover rounded-2xl"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={img("/bannerImages/kid3.jpg")}
+                src={img("bannerImages/kid3.jpg")}
                 alt="Community awareness programs"
                 className="w-full h-[420px] object-cover rounded-2xl"
               />
@@ -72,7 +72,7 @@ export default function Banner() {
 
         <div className="grid md:grid-cols-2 gap-8 bg-white p-6 rounded-2xl shadow-md mb-10">
           <img
-            src={img("/bannerImages/child.jpg")}
+            src={img("bannerImages/child.jpg")}
             alt="People being helped through NGO work"
             className="rounded-xl shadow-md object-cover"
           />
@@ -97,7 +97,7 @@ export default function Banner() {
 
         <div className="grid md:grid-cols-2 gap-8 bg-white p-6 rounded-2xl shadow-md">
           <img
-            src={img("/bannerImages/volunteer3.jpg")}
+            src={img("bannerImages/volunteer3.jpg")}
             alt="Volunteer supporting children"
             className="rounded-xl shadow-md object-cover"
           />
