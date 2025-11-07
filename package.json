@@ -10,7 +10,7 @@
   "preview": "vite preview",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist",
-  "postbuild": "cp public/_redirects build/_redirects"
+  "postbuild": "mkdir -p dist && cp public/_redirects dist/_redirects"
 },
   "dependencies": {
     "react": "^19.1.1",

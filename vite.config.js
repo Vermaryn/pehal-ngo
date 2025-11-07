@@ -10,15 +10,15 @@
 //   },
 //   publicDir: "public",
 // });
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// 🧠 This config works for both GitHub & Netlify
 const isGithub = process.env.VITE_GITHUB === "true";
 
 export default defineConfig({
   plugins: [react()],
-  base: isGithub ? "/pehal-ngo/" : "/", // ✅ "/" = Netlify fix, not "./"
+  base: isGithub ? "/pehal-ngo/" : "/", 
   build: {
     outDir: "dist",
     assetsDir: "assets",
